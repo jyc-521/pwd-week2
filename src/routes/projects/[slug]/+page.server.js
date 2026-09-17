@@ -1,7 +1,6 @@
 // src/routes/projects/[slug]/+page.server.js
 import { error } from '@sveltejs/kit';
 
-/** @type {Record<string, { title: string, body: string }>} */
 const DB = {
   timetable: { title:'Timetable Helper', body:'나만의 시간표를 정리하는 도구입니다.' },
   gallery:   { title:'Image Gallery',    body:'미니 갤러리 예시입니다.' },
